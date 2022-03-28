@@ -1,0 +1,29 @@
+{
+  "name": "@joaotomaz/nativescript-run-cli",
+  "version": "1.0.0-alpha",
+  "description": "A CLI for NativeScript Run and Debug",
+  "main": "src/index.js",
+  "bin": {
+    "@joaotomaz/nativescript-run-cli": "bin/nativescript-run-cli",
+    "nativescript-run-cli": "bin/nativescript-run-cli"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "nativescript-run"
+  ],
+  "author": "Joao Tomaz",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.1",
+    "chalk": "^5.0.1",
+    "esm": "^3.2.25",
+    "inquirer": "^8.2.2",
+    "shelljs": "^0.8.5"
+  }
+}
