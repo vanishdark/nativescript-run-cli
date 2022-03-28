@@ -17,6 +17,10 @@
     "cli",
     "nativescript-run"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nativescript-run-cli.git"
+  },
   "author": "Joao Tomaz",
   "license": "ISC",
   "dependencies": {
@@ -25,5 +29,9 @@
     "esm": "^3.2.25",
     "inquirer": "^8.2.2",
     "shelljs": "^0.8.5"
-  }
+  },
+  "bugs": {
+    "url": "git@github.com:vanishdark/nativescript-run-cli.git/issues"
+  },
+  "homepage": "git@github.com:vanishdark/nativescript-run-cli.git"
 }
