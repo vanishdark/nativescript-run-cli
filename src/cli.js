@@ -188,7 +188,7 @@ async function runScript(options) {
     );
   }
   let rawCommand = "ns run ";
-  rawCommand += options.system + " --no-hrm";
+  rawCommand += options.system + " --no-hmr";
   rawCommand += " --env.env==" + options.environment;
   let command = rawCommand;
   if (options.mobile) {
