@@ -220,10 +220,6 @@ export async function cli(args) {
     shell.exit(1);
   }
   let options = parseArgumentsIntoOptions(args);
-  const result = shell.exec("ns device android --available-devices", {
-    silent: true,
-  });
-  console.log(result.stderr.split("-").join(""));
   options = await promptForMissingArguments(options);
   await runScript(options);
 }
