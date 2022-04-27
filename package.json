@@ -1,6 +1,6 @@
 {
   "name": "@joaotomaz/nativescript-run-cli",
-  "version": "1.0.1-alpha",
+  "version": "1.0.1-alpha.2",
   "description": "A CLI for NativeScript Run and Debug",
   "main": "src/index.js",
   "bin": {

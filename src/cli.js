@@ -85,7 +85,7 @@ async function promptForMissingArguments(options) {
         message: "Please choose which mobile to use",
         choices: [
           "Pixel_3_XL_API_32",
-          "Pixel_4_API_28",
+          "Pixel_XL_API_32",
           "Pixel_4_API_31",
           "skip",
         ],
